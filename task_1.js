@@ -1,13 +1,11 @@
-/* 
-Write a loop that makes seven calls to console.log to output the following triangle:
+let number = 7;
 
-დაწერეთ ციკლი, რომელიც 7-ჯერ იძახებს console.log-ს რომ გამოიტანოს შემდეგი სამკუთხედი:
-
-#
-##
-### 
-#### 
-##### 
-###### 
-#######
-*/
+for ( i = 1; i <= number; i++) {
+    let line = " ";
+    
+    for ( j = 0; j < i; j++) {
+        line += "#";
+    }
+    
+    console.log(line);
+}
